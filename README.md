@@ -208,7 +208,6 @@ CMD ["npm", "start"]
 
 ### Health Checks
 - Health endpoint: `GET /health`
-- Graceful shutdown on SIGTERM/SIGINT
 
 ## 🔄 Adding New Features
 
@@ -235,30 +234,3 @@ CMD ["npm", "start"]
 - CORS configuration
 - Security headers with Helmet
 - Error handling without information leakage
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new functionality
-4. Ensure all tests pass
-5. Submit a pull request
-
-## 📄 License
-
-MIT License - see LICENSE file for details.
-
-## 🎯 Why This Design?
-
-### Why In-Memory Storage?
-- **Simple**: No external dependencies
-- **Fast**: Quickest possible evaluation times
-- **Easy to Extend**: Simple to swap for database storage
-- **Clean**: Shows good architecture patterns
-
-### Why This Structure?
-- **Maintainable**: Clear separation of concerns
-- **Extensible**: Simple to add new features
-- **Professional**: Industry-standard practices
-
-This platform demonstrates clean Node.js development with good architecture and production-ready features.

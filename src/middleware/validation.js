@@ -94,10 +94,6 @@ function validateParams(schema) {
       stripUnknown: true
     });
 
-    console.log({val: schema.validate(req.params, {
-      abortEarly: false,
-      stripUnknown: true
-    })})
 
     if (error) {
       logger.warn('URL parameter validation failed', {
